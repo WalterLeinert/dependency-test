@@ -22,6 +22,12 @@
       ],
       "client/*": [
         "dist/client/*"
+      ],
+      "components": [
+        "dist/components"
+      ],
+      "components/*": [
+        "dist/components/*"
       ]
     }
   }
