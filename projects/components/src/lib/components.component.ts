@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
     <p>
       components works!
     </p>
+
+    <clt-client></clt-client>
   `,
   styles: []
 })
