@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "clean": "rimraf dist/ *-error.log",
     "reallyclean": "npm run clean && rimraf node_modules/",
-    "build:all": "ng build core && ng build cclient && ng build components"
+    "build:all": "ng build core && ng build client && ng build components"
   },
   "private": true,
   "dependencies": {
