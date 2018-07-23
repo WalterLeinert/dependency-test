@@ -1,17 +1,20 @@
 import { Component, OnInit } from '@angular/core';
+import { BaseComponent } from './base.component';
 
 @Component({
   selector: 'clt-client',
   template: `
     <p>
-      client works!
+      client works! value: {{value}}
     </p>
   `,
   styles: []
 })
-export class ClientComponent implements OnInit {
+export class ClientComponent extends BaseComponent<string> implements OnInit {
 
-  constructor() { }
+  constructor() {
+    super('Hallo');
+   }
 
   ngOnInit() {
   }
